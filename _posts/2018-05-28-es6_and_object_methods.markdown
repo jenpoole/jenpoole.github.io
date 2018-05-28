@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "ES6 and Object Methods"
-date:       2018-05-28 21:35:52 +0000
+date:       2018-05-28 17:35:52 -0400
 permalink:  es6_and_object_methods
 ---
 
@@ -26,7 +26,7 @@ x
 //=> {key1: "value2"}
 ```
 
-If you want to prevent this, `Object.freeze()` and `Object.seal()` come into play:
+If you want to prevent this, you can use `Object.freeze()` and `Object.seal()`.
 
 **`Object.freeze()`: Existing properties cannot be modified or removed, and new properties cannot be added.**
 
