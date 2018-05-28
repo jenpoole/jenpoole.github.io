@@ -26,7 +26,7 @@ x
 //=> {key1: "value2"}
 ```
 
-If you want to prevent this, you can use `Object.freeze()` and `Object.seal()`.
+If you want to prevent this, you can use `Object.freeze()` and `Object.seal()`
 
 **`Object.freeze()`: Existing properties cannot be modified or removed, and new properties cannot be added.**
 
